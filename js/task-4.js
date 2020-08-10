@@ -11,7 +11,6 @@ class StringBuilder {
 
   append(str) {
     this._value += str;
-    return;
   }
 
   prepend(str) {
