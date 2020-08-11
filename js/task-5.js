@@ -33,7 +33,6 @@ class Car {
   turnOff() {
     this.isOn = false;
     this.speed = 0;
-    return;
   }
 
   accelerate(value) {
